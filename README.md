@@ -6,7 +6,7 @@ This repository contains a web scraper and a crawler designed to extract and pro
 
 ## Features
 - **Web Scraper:** Uses `AsyncChromiumLoader` from LangChain to load web pages and `Html2TextTransformer` to extract readable text.
-- **Web Crawler:** Built with Scrapy, it follows links on the Vultr website and stores unique links.
+- **Web Crawler:** Built with Scrapy, it follows links on the provided URL and stores unique links.
 - **Data Storage:** Extracted data is saved in json file.
 - **Respects Robots.txt:** The crawler follows ethical scraping practices.
 
@@ -25,7 +25,7 @@ python scrapper.py
 ```
 
 ### Running the Web Crawler
-First, navigate to the `crapper/crawler/webcrawler/webcrawler/spiders` directory:
+First, navigate to the `scrapper/crawler/webcrawler/webcrawler/spiders` directory:
 ```bash
 cd crapper/crawler/webcrawler/webcrawler/spiders
 ```
