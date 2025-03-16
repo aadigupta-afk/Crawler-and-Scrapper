@@ -25,9 +25,9 @@ python scrapper.py
 ```
 
 ### Running the Web Crawler
-First, navigate to the `scrapper/crawler/webcrawler/webcrawler/spiders` directory:
+First, navigate to the `crawler/webcrawler/webcrawler/spiders` directory:
 ```bash
-cd crapper/crawler/webcrawler/webcrawler/spiders
+cd crawler/webcrawler/webcrawler/spiders
 ```
 Then, run the crawler using the following command:
 ```bash
